@@ -29,7 +29,7 @@ jobs:
           kill $!
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@3d4f1b4f9d8d63e7e56a6c372dc0a9cf6adfdf8c
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: binary
           path: ./dummy-server.bin
